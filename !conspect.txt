@@ -1,0 +1,22 @@
+			Display: inline-block
+
+https://getinstance.info/articles/css/display-inline-block/
+Мы можем объединить блочное и инлайновое поведение, задав блоку значение свойства display равное inline-block.
+
+CSS
+a { display: inline-block; }
+Internet Explorer 6 и 7 не поддерживают значение inline-block для элементов, которые не являются инлайновыми по умолчанию. Для таких случаев есть простое решение:
+
+CSS
+div {
+    display: inline-block;
+    *zoom: 1; /* trigger hasLayout for IE7 and below */
+    *display: inline; /* the star targets only IE7 and below */
+}
+После этого блоки будут иметь следующие характеристики:
+
+Блоки выстраиваются друг за другом горинтально
+Могут быть определены высота и ширина
+Отступы можно использовать для управления позиционированием
+Свойство vertical-align может быть использовано для управления вертикальным позиционированием
+
