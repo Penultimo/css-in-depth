@@ -1,1 +1,6 @@
-			
+	The rules of cascading
+1. Stylesheet origin;
+2. Selectors specificity;
+3. Source origin;
+
+	
