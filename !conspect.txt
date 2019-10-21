@@ -1,6 +1,8 @@
-	The rules of cascading
+	The rules of cascading - 3 rules:
 1. Stylesheet origin;
 2. Selectors specificity;
 3. Source origin;
+
+		
 
 	
